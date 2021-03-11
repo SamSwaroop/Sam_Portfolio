@@ -1,12 +1,13 @@
 body{
-    background-color: rgb(152, 142, 254);
+    background-color: rgb(119, 119, 131);
+  
   }
   ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
+    background-color:grey;
     opacity: 0.5;
   }
   
@@ -16,21 +17,21 @@ body{
   
   li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color:black;
     text-align: center;
     font-size: 30px;
-    padding: 30px 123px;
+    padding: 10px 118px;
     text-decoration: none;
     font-weight: bold;
   }
   
   li a:hover {
-    background-color: rgb(185, 183, 194);
+    background-color: rgb(255, 255, 255);
   }
 
   footer { 
     width: 100%;  
-    background-color: #5946ff; 
+    background-color: #060608; 
     color: #fff;  
     padding-top:5px; 
     padding-bottom:5px; 
