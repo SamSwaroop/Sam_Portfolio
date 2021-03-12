@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <title> My Website </title>
 </head>
 <body>
@@ -50,12 +52,12 @@
     <img src="FR.jpg" style="position: relative; left: 515px; height: 300px; width: 500px;">
     <h2 style="position: relative; left: 730px; font-size: medium;font-weight: 1000;"> Duration:8 weeks</h2>
     <h2 style="position: relative; left: 740px; font-size: medium; font-weight: 1000;"> Major Project</h2>
-    <p style="border: 30px; margin-left: 50px;">The aim is to develop the automated system for detection and recognition of faces using their images from videos and recording the 
+    <p style="border: 30px; margin-left: 50px; font-size: large;">The aim is to develop the automated system for detection and recognition of faces using their images from videos and recording the 
     attendance of the students by identifying him/her from their variant facial features. This helps to maintain and handle the attendance system automatically without any human intervention. This new system can ease the hectic attendance maintenance and handling the attendance will be more precise and
      efficient. The proposed system contributes to human face detection with the help of Viola Jones algorithm and face recognition with Fisher Face algorithm and achieves accuracy of 45% to 50%.</p><br>
-    <p style="margin-left: 50px; margin-right: 50px; font-style: italic; font-weight: bold;">Implementation steps:</p>
-    <p style="margin-left: 50px; margin-right: 50px; font-style: italic; font-weight: bold;">A. Interface:</p>
-      <p style="margin-left: 50px; margin-right: 50px;">1)When the application is executed, a pop-up window
+    <p style="margin-left: 50px; margin-right: 50px; font-style: italic; font-weight: bold;font-size: large;">Implementation steps:</p>
+    <p style="margin-left: 50px; margin-right: 50px; font-style: italic; font-weight: bold; font-size: large;">A. Interface:</p>
+      <p style="margin-left: 50px; margin-right: 50px; font-size: large;">1)When the application is executed, a pop-up window
       appears asking for the login details. We need to select
       the type of user i.e. Admin or faculty. <br>
       2)Login as Admin is made where the correct username and
@@ -80,8 +82,8 @@
       granted only to the Admin. No other user will be able to
       access this table in the database. Another window
       appears which shows the database table.</p><br><br><br>
-      <p style="margin-left: 50px; margin-right: 50px; font-style: italic; font-weight: bold;">B. Faculty/Staff Login:</p>
-      <p style="margin-left: 50px; margin-right: 50px;">1)The User type which is going to login is Faculty user.
+      <p style="margin-left: 50px; margin-right: 50px; font-style: italic; font-weight: bold; font-size: large;">B. Faculty/Staff Login:</p>
+      <p style="margin-left: 50px; margin-right: 50px;font-size: large;">1)The User type which is going to login is Faculty user.
       The user needs to select the correct user type from the
       drop-down list otherwise the user will not be
       authenticated even if he/she has entered the correct
@@ -96,8 +98,8 @@
       International Journal of Advanced Research in Computer and Communication Engineering
       Vol. 5, Issue 4, April 2016
       Copyright to IJARCCE DOI 10.17148/IJARCCE.2016.54125 503</p><br><br><br>
-      <p style="margin-left: 50px; margin-right: 50px; font-style: italic; font-weight: bold;">C. Detection and Enrolment:<p>
-      <p style="margin-left: 50px; margin-right: 50px;">1)If the student is not enrolled into the system, he/she can
+      <p style="margin-left: 50px; margin-right: 50px; font-style: italic; font-weight: bold; font-size: large;">C. Detection and Enrolment:<p>
+      <p style="margin-left: 50px; margin-right: 50px;font-size: large;">1)If the student is not enrolled into the system, he/she can
       be enrolled by training the system. The student need to
       sit in front of the camera. Their face image will be
       extracted by the system and the user need to fill up the
@@ -124,8 +126,42 @@
       It shows a message box “Done” if the report generation
       is completed. <br> </p>
     <h2 style="margin: 50px;"> Technologies used:<br></h2>
-    <img src="opencv.png" style="position: relative; left: 515px; height: 300px; width: 500px;">
-    <h3 style="position: relative; left: 650px;">HARR Cascade Algorithm(ML)</h3><br><br><br>
+    <div class="container">
+       
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="python1.png" alt="Los Angeles" style="width:1200px; ">
+          </div>
+    
+          <div class="item">
+            <img src="firebase.png" alt="Chicago" style="width:1200px;">
+          </div>
+        
+          <div class="item">
+            <img src="cam1.jpg" alt="New york" style="width: 1200px;">
+          </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
     
     <footer >
       "Change is the only constant."
